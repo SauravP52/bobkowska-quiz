@@ -20,8 +20,8 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 3,
-    question: 'Which food tastes the best? 🍽️',
-    choices: ['Nepali 🥟', 'Polish 🥟', 'Thai 🍜', 'Vietnamese 🍲'],
+    question: 'Which of the following is a Nepali dish🍽️',
+    choices: ['Momo', 'Butter Chicken', 'Choila', 'Pączki'],
     answer: 0
   },
   {

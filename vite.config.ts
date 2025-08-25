@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // If deploying to username.github.io root, set base: '/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/react-quiz-ts/'
+  base: '/bobkowska-quiz/'
 })
