@@ -115,7 +115,6 @@ export function QuizContent() {
   return (
     <main className="container">
       <div className="card">
-        <PinkAudioPlayer />
         <header className="header">
           <h1>About Bobkowska 🫐</h1>
           <div className="meta">

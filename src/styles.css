@@ -1,10 +1,179 @@
+/* Journal Styles */
+.journal-card {
+    max-width: 800px !important;
+} 
+/* .nav-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff0f6;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #ff69b4;
+  box-shadow: 0 2px 8px rgba(255, 105, 180, 0.2);
+  white-space: nowrap;
+} */
+
+.nav-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-player {
+  border-left: 2px solid rgba(255, 105, 180, 0.3);
+  padding-left: 16px;
+  margin-left: 8px;
+}
+
+.new-entry {
+  margin: 20px 0;
+}
+
+.new-entry textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fff0f6;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.journal-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.journal-entry {
+  background: #fff0f6;
+  border: 2px solid #ff69b4;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.entry-date {
+  font-size: 14px;
+  color: #ff69b4;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.entry-content {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.entry-image-container {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.entry-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px 0 rgba(255,182,213,0.25), 0 1.5px 8px 0 #ffd6e3;
+  background: linear-gradient(135deg, rgba(255,224,236,0.32) 60%, rgba(255,182,213,0.22) 100%);
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+  border: 2.5px solid #ffb6d5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.entry-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 40px 0 rgba(255,182,213,0.35), 0 2px 12px 0 #ffd6e3;
+}
+
+.entry-image-caption {
+  margin-top: 12px;
+  font-family: 'Caveat', 'Dancing Script', cursive;
+  color: #ff69b4;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+.nav-container {
+  position: static;
+  top: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  background-color: #fff0f6;
+  background: linear-gradient(135deg, #fff0f6 0%, #ffe4ec 100%);
+  padding: 8px 16px;
+  border-radius: 50px;
+  border: 2px solid #ff69b4;
+  box-shadow: 0 2px 8px rgba(255, 105, 180, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-link {
+  color: #ff69b4;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+.nav-link.active {
+  background: #ff69b4;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    justify-content: center;
+    border-radius: 30px;
+    flex-wrap: nowrap;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-player {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .audio-label {
+    display: none;
+  }
+}
+
 /* Audio Player Styles */
 .audio-player {
 	display: flex;
 	align-items: center;
-	gap: 12px;
-	margin-bottom: 18px;
+	gap: 8px;
 }
+
 .audio-btn {
 	background: #fff0f6;
 	border: 2px solid #ff69b4;

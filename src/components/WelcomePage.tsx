@@ -1,18 +1,36 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface WelcomePageProps {
   onStart: () => void;
 }
 
 export function WelcomePage({ onStart }: WelcomePageProps) {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="card">
-        <h1>Welcome to Bobkowska Quiz! 💖</h1>
+        <h1>Welcome Jagoda 💖</h1>
         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
-          A cute quiz app made with love 💝
+          A feature packed app custom made by the greatest engineer in the world, Saurav.
         </p>
-        <button onClick={onStart} className="btn primary">Start Quiz</button>
+        <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
+          1. 2025-08-26: Added feature to make custom journal entries with images and captions, to document our memories together. Hope you like it! 📝💝
+        </p>
+        <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+          {/* <button onClick={onStart} className="btn primary">Start Quiz</button>
+          <button 
+            onClick={() => navigate('/journal')} 
+            className="btn"
+            style={{ 
+              background: '#fff0f6',
+              border: '2px solid #ff69b4',
+              color: '#ff69b4'
+            }}
+          >
+            Open Journal 📝
+          </button> */}
+        </div>
       </div>
     </div>
   )
