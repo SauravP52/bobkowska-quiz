@@ -4,6 +4,7 @@ import { WelcomePage } from './components/WelcomePage'
 import { QuizContent } from './pages/Quiz'
 import { Journal } from './components/Journal'
 import { PinkAudioPlayer } from './components/PinkAudioPlayer'
+import { StockTracker } from './components/StockTracker'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function AppRoutes() {
           <Link to="/" className={`nav-link${location.pathname === '/' ? ' active' : ''}`}>Home</Link>
           <Link to="/quiz" className={`nav-link${location.pathname === '/quiz' ? ' active' : ''}`}>Quiz</Link>
           <Link to="/journal" className={`nav-link${location.pathname === '/journal' ? ' active' : ''}`}>Journal</Link>
+          <Link to="/stocks" className={`nav-link${location.pathname === '/stocks' ? ' active' : ''}`}>Stocks</Link>
         </div>
         <div className="nav-player">
           <PinkAudioPlayer />
@@ -33,6 +35,7 @@ function AppRoutes() {
         <Route path="/" element={<WelcomePage onStart={() => navigate('/quiz')} />} />
         <Route path="/quiz" element={<QuizContent />} />
         <Route path="/journal" element={<Journal />} />
+        <Route path="/stocks" element={<StockTracker />} />
       </Routes>
     </>
   )

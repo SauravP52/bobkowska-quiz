@@ -16,4 +16,12 @@ export const JOURNAL_ENTRIES: JournalEntry[] = [
       caption: "Uberversaries"
     }
   },
+   {
+    date: "2025-08-27",
+    content: "Dear Bobkowska , another day another adventure. It was nice hearing your voice and seeing you. God i'd forgotten what you sounded like.  The indian food i cooked yesterday left a mark on the wall , and Shawn pointed out to me. Maybe i am clumsy ;(.I have a bunch of house visits , and also need to find a Makelaar they charging me 3999 Jez. I did a lot of research on House hunting , ask me anything. I am still open to going to Poznan, the air show looks fun, haha. Peace. See you soon 💙",
+    image: {
+      url: new URL('./assets/journal/2025-08-27-01.JPEG', import.meta.url).href,
+      caption: "Bobkowska Selfie"
+    }
+  },
 ];

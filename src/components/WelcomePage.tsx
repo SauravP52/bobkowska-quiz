@@ -12,10 +12,13 @@ export function WelcomePage({ onStart }: WelcomePageProps) {
       <div className="card">
         <h1>Welcome Jagoda 💖</h1>
         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
-          A feature packed app custom made by the greatest engineer in the world, Saurav.
+          A feature packed app custom crafted with love and creativity.
         </p>
         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
           1. 2025-08-26: Added feature to make custom journal entries with images and captions, to document our memories together. Hope you like it! 📝💝
+        </p>
+         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
+         Trademark - Saurav Pradhan
         </p>
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
           {/* <button onClick={onStart} className="btn primary">Start Quiz</button>
