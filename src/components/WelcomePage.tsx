@@ -17,6 +17,9 @@ export function WelcomePage({ onStart }: WelcomePageProps) {
         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
           1. 2025-08-26: Added feature to make custom journal entries with images and captions, to document our memories together. Hope you like it! 📝💝
         </p>
+        <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
+          2. 2025-08-27: Added feature to track uber stock 📝💝
+        </p>
          <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
          Trademark - Saurav Pradhan
         </p>

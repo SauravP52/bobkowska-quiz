@@ -22,6 +22,14 @@ export const JOURNAL_ENTRIES: JournalEntry[] = [
     image: {
       url: new URL('./assets/journal/2025-08-27-01.JPEG', import.meta.url).href,
       caption: "Bobkowska Selfie"
+    },
+  },
+  {
+    date: "2025-08-28",
+    content: "Dear Bobkowska , hope you are well. Highlight of the day - i worked out with Vlad, he had a really interesting story to tell. His girlfriend is from Ukraine , they have been together for 5 years now. When the war started , his girlfriend was forced to move to the Netherlands. He said , they don't just allow you to cross border in Ukraine as a male in his early 20s. He crossed the border somewhat unofficially to get to the Netherlands, find a job ,reunite with his girlfriend , pretty romantic - (He just crosses the border , but did he make an app for her ? Jez , loser).He also shared a bunch of great restaurants in Warsaw , that he claimed has really good food. We should go there once in Warsaw. See you tomorrow 💙",
+    image: {
+      url: new URL('./assets/journal/2025-08-28-01.JPEG', import.meta.url).href,
+      caption: "Business Call"
     }
   },
 ];

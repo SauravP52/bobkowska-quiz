@@ -54,6 +54,9 @@ export function StockTracker() {
         );
         
         if (!response.ok) {
+          if (response.status === 401) {
+            throw new Error('API key is missing or invalid. Please check your environment configuration.');
+          }
           throw new Error('Failed to fetch stock data');
         }
         
