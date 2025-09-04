@@ -32,4 +32,12 @@ export const JOURNAL_ENTRIES: JournalEntry[] = [
       caption: "Business Call"
     }
   },
+  {
+    date: "2025-09-04",
+    content: "Dear Bobkowska, you've made clear of your intentions. I respect that. Hope you are well. I am doing fine too (Thanks for asking). Btw discovered i had been doing my flight booking all wrong to Gdansk , they literally can cost just 42Euro. This entry i am sharing the last picture i have of you. Is this how you want me to remember you ? Huh ? I didn't think so. I have so much drama in my life that you are missing out on. What i miss a lot the most is our daily talks and conversation. It starts to get lonely here. I miss you a lot 💙",
+     image: {
+      url: new URL('./assets/journal/2025-09-04-01.JPEG', import.meta.url).href,
+      caption: "Last Picture of you"
+    }
+  }
 ];
