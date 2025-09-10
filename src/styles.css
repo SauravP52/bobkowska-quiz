@@ -581,3 +581,77 @@ body::before {
 .bg-slate-800 { background: #1f2937; }
 .rounded-full { border-radius: 999px; }
 .overflow-hidden { overflow: hidden; }
+
+.timeline-card {
+  background: linear-gradient(135deg, #e0d6f6 60%, #a78bfa 100%);
+  border: 2.5px solid #a78bfa;
+  box-shadow: 0 6px 32px 0 rgba(124,58,237,0.18), 0 1.5px 8px 0 #a78bfa;
+  border-radius: 24px;
+  padding: 32px 24px;
+  margin: 32px auto;
+  max-width: 480px;
+}
+
+.timeline-stack {
+  position: relative;
+}
+
+.timeline-card-item {
+  background: #f3e8ff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(124,58,237,0.12);
+  padding: 20px;
+  margin-bottom: -60px;
+  position: relative;
+  border: 2px solid #a78bfa;
+  transition: box-shadow 0.2s;
+}
+
+.timeline-card-item:hover {
+  box-shadow: 0 6px 24px rgba(124,58,237,0.18);
+  z-index: 100;
+}
+
+.timeline-date {
+  font-size: 1em;
+  color: #7c3aed;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 8px;
+}
+
+.timeline-title {
+  font-size: 1.3em;
+  color: #5b21b6;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.timeline-content {
+  font-size: 1.1em;
+  color: #7c3aed;
+  margin-bottom: 12px;
+}
+
+.timeline-image-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.timeline-image {
+  max-width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(124,58,237,0.15);
+  border: 2px solid #a78bfa;
+}
+
+.timeline-category {
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  /* Only border below the whole category, not between entries */
+  border-bottom: 1px solid #a78bfa;
+}
+
+.journal-entry {
+  /* No border here! */
+  margin-bottom: 24px;
+}

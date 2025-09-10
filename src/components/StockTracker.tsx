@@ -185,7 +185,7 @@ export function StockTracker() {
                 }}
               />
             </div>
-            <div className="stock-item">
+            <div className= "stock-item">
               <span className="label">Price Calculation</span>
               <span className="value" style={{ fontSize: '24px', color: '#ff69b4' }}>
                 {quantity} x ${formatPrice(stockData.close)} = ${formatPrice(stockData.close * quantity)}

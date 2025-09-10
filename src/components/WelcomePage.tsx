@@ -21,6 +21,9 @@ export function WelcomePage({ onStart }: WelcomePageProps) {
           2. 2025-08-27: Added feature to track uber stock 📝💝
         </p>
          <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
+          3. 2025-09-10: Introducing the Timeline feature to relive our best memories with photos and captions! 📝💝
+        </p>
+         <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
          Trademark - Saurav Pradhan
         </p>
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
