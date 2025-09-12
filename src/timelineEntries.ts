@@ -74,5 +74,88 @@ export const TIMELINE_CATEGORIES: TimelineCategory[] = [
         }
       }
     ]
+  },
+  {
+    destination: "Amsterdam",
+    date: "2025-07-13",
+    entries: [
+      {
+        content: "They are not roses, i swearrrrrrr",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-1.JPEG', import.meta.url).href,
+          caption: "Roses ?"
+        }
+      },
+      {
+        content: "The most beautiful thing i have never seen",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-2.JPEG', import.meta.url).href,
+          caption: "Cutekowska"
+        }
+      },
+      {
+        content: "Stray Kids in the houseeeeee, you were so happy that day. I still remember how you were jumping and screaming when they came on stage. However i am still your favourite Asian... Screw Felix and Hyunjin ;)",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-3.JPEG', import.meta.url).href,
+          caption: "Stray Kids in the houseeeeee"
+        }
+      },
+      {
+        content: "Oopsieeee Castle De Haar was closed!! Atleast we got some decent pictures that day. Saving Utrecht for another day",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-4.JPEG', import.meta.url).href,
+          caption: "Utrecked"
+        }
+      },
+      {
+        content: "Pretty hands !! Mineeee not yours , silly",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-5.JPEG', import.meta.url).href,
+          caption: "Hand fetish"
+        } 
+      },
+      {
+        content: "More hand holding, i go where you go :)",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-6.JPEG', import.meta.url).href,
+          caption: "Follow me"
+        } 
+      },
+      {
+        content: "Cooking like a chef, I'm a five star Michelin.",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-7.JPEG', import.meta.url).href,
+          caption: "Michelin Recommended ? Michelin Star ?"
+        }
+      },
+      {
+        content: "The most goated picture of you.",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-8.JPEG', import.meta.url).href,
+          caption: "Goated"
+        } 
+      },
+      {
+        content: "We laugh, we cry and we happy.",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-9.JPEG', import.meta.url).href,
+          caption: "Rollercoaster of emotions"
+        } 
+      },
+      {
+        content: "Bobkowska the f1 driver from Poland",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-10.JPEG', import.meta.url).href,
+          caption: "Harsimar: Who's your favourite f1 team? Jagoda: Umm Poland i guess?"
+        } 
+      },
+      {
+        content: "I am scared she'll push me off the swing",
+        image: {
+          url: new URL('./assets/timelines/Amsterdam-11.JPEG', import.meta.url).href,
+          caption: "Swingingggg in <3"
+        } 
+      }
+    ]
   }
-];
+]
