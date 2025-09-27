@@ -5,6 +5,7 @@ import { QuizContent } from './pages/Quiz'
 import { Journal } from './components/Journal'
 import { PinkAudioPlayer } from './components/PinkAudioPlayer'
 import { Timeline } from './components/Timeline';
+import { RandomFactPage } from './components/RandomFactPage'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function AppRoutes() {
           <Link to="/quiz" className={`nav-link${location.pathname === '/quiz' ? ' active' : ''}`}>Quiz</Link>
           <Link to="/journal" className={`nav-link${location.pathname === '/journal' ? ' active' : ''}`}>Journal</Link>
           <Link to="/timeline" className={`nav-link${location.pathname === '/timeline' ? ' active' : ''}`}>Timeline</Link>
+          <Link to="/fact" className={`nav-link${location.pathname === '/fact' ? ' active' : ''}`}>Random Fact</Link>
         </div>
         <div className="nav-player">
           <PinkAudioPlayer />
@@ -36,6 +38,7 @@ function AppRoutes() {
         <Route path="/quiz" element={<QuizContent />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/timeline" element={<Timeline />} />
+        <Route path="/fact" element={<RandomFactPage />} />
       </Routes>
     </>
   )

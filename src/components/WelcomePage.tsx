@@ -23,6 +23,9 @@ export function WelcomePage({ onStart }: WelcomePageProps) {
          <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
           3. 2025-09-10: Introducing the Timeline feature to relive our best memories with photos and captions! 📝💝
         </p>
+          <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
+          4. 2025-09-27: Introducting the fact of the day, to make you smarter everyday! 
+        </p>
          <p style={{ fontFamily: 'Caveat, Dancing Script, cursive', fontSize: 22, color: '#b8005c', margin: '24px 0' }}>
          Trademark - Saurav Pradhan
         </p>
