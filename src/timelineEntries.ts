@@ -111,7 +111,7 @@ export const TIMELINE_CATEGORIES: TimelineCategory[] = [
         content: "Pretty hands !! Mineeee not yours , silly",
         image: {
           url: new URL('./assets/timelines/Amsterdam-5.JPEG', import.meta.url).href,
-          caption: "Hand fetish"
+         
         } 
       },
       {
@@ -155,6 +155,103 @@ export const TIMELINE_CATEGORIES: TimelineCategory[] = [
           url: new URL('./assets/timelines/Amsterdam-11.JPEG', import.meta.url).href,
           caption: "Swingingggg in <3"
         } 
+      }
+    ]
+  },
+  {
+    destination: 'Luzino',
+    date: '2025-07-15',
+    entries: [
+      {
+        content: 'We had the best polish food in gdansk , your boss almost caught us sneaking into the office shhhh.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-1.jpg', import.meta.url).href,
+          caption: 'Food with cutie'
+        }
+      },
+      {
+        content: 'Sunshine on my shoulders makes me happy.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-2.jpg', import.meta.url).href,
+          caption: 'My Sunshine'
+        }
+      },
+      {
+        content: 'Perks of being small, you easily fit into small spaces.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-3.jpg', import.meta.url).href,
+          caption: 'Sleepover'
+        }
+      },
+      {
+        content: 'All it takes is some ice-cream to love an Indian.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-4.jpg', import.meta.url).href,
+          caption: 'Kids love me'
+        }
+      },
+      {
+        content: 'Cuteness overloaded',
+        image: {
+          url: new URL('./assets/timelines/Luzino-5.jpg', import.meta.url).href,
+          caption: 'Lovely Bianca <3'
+        }
+      },
+      {
+        content: '5 Bucks for cutting your hair.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-6.jpg', import.meta.url).href,
+          caption: 'Hair dresser'
+        }
+      },
+      {
+        content: 'On our way to the beach.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-7.jpg', import.meta.url).href,
+          caption: 'Sad eyes'
+        }
+      },
+      {
+        content: 'I punch cute',
+        image: {
+          url: new URL('./assets/timelines/Luzino-8.jpg', import.meta.url).href,
+          caption: 'She scored 400 points'
+        }
+      },
+      {
+        content: 'Ocean eyes selfie',
+        image: {
+          url: new URL('./assets/timelines/Luzino-9.jpg', import.meta.url).href,
+          caption: 'Selfie by the sea'
+        }
+      },
+      {
+        content: 'I have absssss.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-10.jpg', import.meta.url).href,
+          caption: '6-pack abs'
+        }
+      },
+      {
+        content: 'She"s iconic.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-11.jpg', import.meta.url).href,
+          caption: '#slavicbeauty'
+        }
+      },
+      {
+        content: 'Look at the way she looks at me <3',
+        image: {
+          url: new URL('./assets/timelines/Luzino-12.jpg', import.meta.url).href,
+          caption: 'She"s gonna kill me'
+        }
+      },
+      {
+        content: 'And then she drives me home.',
+        image: {
+          url: new URL('./assets/timelines/Luzino-13.jpg', import.meta.url).href,
+          caption: 'Sad puppy face...'
+        }
       }
     ]
   }
