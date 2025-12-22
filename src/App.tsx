@@ -1,3 +1,4 @@
+import { BirthdayPage } from './components/BirthdayPage';
 import React from 'react'
 import { HashRouter, Routes, Route, useNavigate, Link, useLocation } from 'react-router-dom'
 import { WelcomePage } from './components/WelcomePage'
@@ -5,7 +6,7 @@ import { QuizContent } from './pages/Quiz'
 import { Journal } from './components/Journal'
 import { PinkAudioPlayer } from './components/PinkAudioPlayer'
 import { Timeline } from './components/Timeline';
-import { RandomFactPage } from './components/RandomFactPage'
+import { RandomFactPage } from './components/RandomFactPage';
 
 function App() {
   return (
@@ -24,10 +25,11 @@ function AppRoutes() {
       <nav className="nav-container">
         <div className="nav-links">
           <Link to="/" className={`nav-link${location.pathname === '/' ? ' active' : ''}`}>Home</Link>
+           <Link to="/birthday" className={`nav-link${location.pathname === '/birthday' ? ' active' : ''}`}>Birthday</Link>
           <Link to="/quiz" className={`nav-link${location.pathname === '/quiz' ? ' active' : ''}`}>Quiz</Link>
           <Link to="/journal" className={`nav-link${location.pathname === '/journal' ? ' active' : ''}`}>Journal</Link>
           <Link to="/timeline" className={`nav-link${location.pathname === '/timeline' ? ' active' : ''}`}>Timeline</Link>
-          <Link to="/fact" className={`nav-link${location.pathname === '/fact' ? ' active' : ''}`}>Random Fact</Link>
+
         </div>
         <div className="nav-player">
           <PinkAudioPlayer />
@@ -35,10 +37,10 @@ function AppRoutes() {
       </nav>
       <Routes>
         <Route path="/" element={<WelcomePage onStart={() => navigate('/quiz')} />} />
+        <Route path="/birthday" element={<BirthdayPage />} />
         <Route path="/quiz" element={<QuizContent />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/timeline" element={<Timeline />} />
-        <Route path="/fact" element={<RandomFactPage />} />
       </Routes>
     </>
   )
